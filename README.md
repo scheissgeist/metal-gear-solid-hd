@@ -32,8 +32,8 @@
 
 ## Install (3 steps)
 
-1. **Download** the zip from [Releases](../../releases/latest).
-2. **Unzip it into the game folder**: in Steam, right-click METAL GEAR SOLID > Manage > Browse local files. Put everything next to `METAL GEAR SOLID.exe` and say yes to replace.
+1. **Close METAL GEAR SOLID**, then download the zip from [Releases](../../releases/latest).
+2. **Unzip it into the game folder**: in Steam, right-click METAL GEAR SOLID > Manage > Browse local files. Put everything next to `METAL GEAR SOLID.exe`. Back up any existing files you are replacing, then say yes to replace.
 3. **Double-click `INSTALL.bat`**, wait for "installed", then play from Steam.
 
 ## Keys
@@ -53,7 +53,39 @@
 
 ## Uninstall
 
-Double-click `UNINSTALL.bat`, then delete the files you copied in. Or use Steam > Properties > Installed Files > Verify integrity of game files, which restores everything.
+1. **Close METAL GEAR SOLID.**
+2. **Double-click `UNINSTALL.bat`** and wait for confirmation that the stock game files are restored. Do this before deleting the mod folders. If it reports an error, use Steam > Properties > Installed Files > Verify integrity of game files to restore the game data before continuing.
+3. **Delete these two folders from the game folder:**
+
+   ```text
+   MGSModernHUD
+   MGSModernTextures
+   ```
+
+4. **Delete these files from the game folder:**
+
+   ```text
+   d3d11.dll
+   dinput8.dll
+   INSTALL.bat
+   install.ps1
+   LICENSES.txt
+   MGSM2Fix-README.md
+   MGSM2Fix.ini
+   MGSM2Fix32.asi
+   MGSM2Fix64.asi
+   MGSModernEmitters.txt
+   MGSModernLights.txt
+   MGSModernStages.txt
+   MGSModernTextureIDs.txt
+   README.txt
+   UNINSTALL.bat
+   uninstall.ps1
+   ```
+
+This list covers the files supplied by this release. If any were present before installing, restore your backed-up versions instead of deleting files needed by another mod.
+
+After the stock files have been restored, you can also remove the installer's backup file `windata\alldata.psb.m.stock`. Keep the `windata` folder, the game executable and your saves.
 
 ## Problems
 
