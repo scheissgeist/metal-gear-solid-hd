@@ -95,4 +95,4 @@ After the stock files have been restored, you can also remove the installer's ba
 
 ## Credits
 
-By BroTeamPill. Built on [MGSM2Fix](https://github.com/nuggslet/MGSM2Fix) by nuggslet and Ultimate ASI Loader by ThirteenAG (both MIT, see `LICENSES.txt`). METAL GEAR SOLID is (c) KONAMI; this is an unofficial fan mod and needs your own copy of the game.
+Built on [MGSM2Fix](https://github.com/nuggslet/MGSM2Fix) by nuggslet and Ultimate ASI Loader by ThirteenAG (both MIT, see `LICENSES.txt`). METAL GEAR SOLID is (c) KONAMI; this is an unofficial fan mod and needs your own copy of the game.
