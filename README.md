@@ -64,7 +64,7 @@ After the stock files have been restored, you can also remove the installer's ba
 
 ## Problems
 
-- **"not the stock files this pack was built for"**: your game data is already modified (another mod or a game update). Verify integrity of game files in Steam, then run `INSTALL.bat` again.
+- **"not the stock files this pack was built for"**: your game data is already modified (another mod or a game update). Verify integrity of game files in Steam, then run `INSTALL.bat` again. European Steam copies (depot 2131633) also get this message: v0.1 is built for the North American data. EU support is being worked on in [issue #1](https://github.com/scheissgeist/metal-gear-solid-hd/issues/1); `tools/rebase_index.py` rebuilds the pack's index for another stock archive.
 - **Image effects on at start**: `MGSM2Fix.ini` > `[ImageFx]` > `StartOn = true`.
 - Steam Deck / Linux: not tested yet.
 
