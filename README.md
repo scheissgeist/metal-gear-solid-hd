@@ -11,6 +11,8 @@
 2. **Unzip it into the game folder**: in Steam, right-click METAL GEAR SOLID > Manage > Browse local files. Put everything next to `METAL GEAR SOLID.exe`. Back up any existing files you are replacing, then say yes to replace.
 3. **Double-click `INSTALL.bat`**, wait for "installed", then play from Steam.
 
+**Updating from v0.1:** close the game and unzip the new release over it, replacing files. The texture data is unchanged, so `INSTALL.bat` will just say it is already installed.
+
 ## Keys
 
 | Key | Does | Starts |
@@ -64,7 +66,7 @@ After the stock files have been restored, you can also remove the installer's ba
 
 ## Problems
 
-- **"not the stock files this pack was built for"**: your game data is already modified (another mod or a game update). Verify integrity of game files in Steam, then run `INSTALL.bat` again. European Steam copies (depot 2131633) also get this message: v0.1 is built for the North American data. EU support is being worked on in [issue #1](https://github.com/scheissgeist/metal-gear-solid-hd/issues/1); `tools/rebase_index.py` rebuilds the pack's index for another stock archive.
+- **"not the stock files this pack was built for"**: your game data is already modified (another mod or a game update). Verify integrity of game files in Steam, then run `INSTALL.bat` again. European Steam copies (depot 2131633) also get this message, because the pack is built for the North American data. For an EU copy, also unzip `MGS-HD-v0.1-EU-index.zip` from the release page over the pack before running `INSTALL.bat` (untested so far, see [issue #1](https://github.com/scheissgeist/metal-gear-solid-hd/issues/1)); `tools/rebase_index.py` rebuilds the pack's index for another stock archive.
 - **Image effects on at start**: `MGSM2Fix.ini` > `[ImageFx]` > `StartOn = true`.
 - Steam Deck / Linux: not tested yet.
 
